@@ -13,4 +13,15 @@ NVM and Node.js Cheat code
 --nvm ls-remote
 
 --nvm install (version no)
+How to check installed node js version .
+-nvm ls
+//Switch to another version
+To switch to another version for the active shell use nvm use.
+--nvm use (version no)
+//Switch to the latest installed version:
+
+-nvm use node
+//Use the latest LTS version:
+
+--nvm use --lts
 
